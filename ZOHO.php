@@ -13,7 +13,7 @@ class GetListofModules{
         $curl_options[CURLOPT_CUSTOMREQUEST] = "GET";
         $headersArray = array();
         
-        $headersArray[] = "Authorization". ":" . "Zoho-oauthtoken " ."1000.56b564d5dfa4b106e7d9140746a304eb.3531e3107a0ceadd1c6722a6e6699eaa";
+        $headersArray[] = "Authorization". ":" . "Zoho-oauthtoken " ."1000.56b564d5dfa4b106e7d9140746a30xxx.3531e3107a0ceadd1c6722a6e6699xxx";
         $curl_options[CURLOPT_HTTPHEADER]=$headersArray;
         
         curl_setopt_array($curl_pointer, $curl_options);
