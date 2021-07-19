@@ -8,10 +8,10 @@ curl_setopt($call_url, CURLOPT_POST, 1);
 $parameters=array(
 
     'grant_type'=>'authorization_code',
-    'client_id'=>'1000.7BIUM141G48NK0XTH099SPGAROY26M',
-    'client_secret'=>'34a6f750dd62b6316de31c32a1bb78aa51c9b358ec',
+    'client_id'=>'1000.xxxUM141G48NK0XTH099SPGAROYxxx',
+    'client_secret'=>'34a6f750dd62b6316de31c32a1bb78aa51c9b35xxx',
     'scope'=>'ZohoCRM.modules.leads.create',
-    'code'=>'1000.2575da1ad60423502d654df16030a833.dc817cbe67cb9ce29bcc0ed9619a280a'
+    'code'=>'1000.2575da1ad60423502d654df16030a833.dc817cbe67cb9ce29bcc0ed9619a2xxx'
 
 );
  
