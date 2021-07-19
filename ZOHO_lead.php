@@ -27,7 +27,7 @@ class InsertRecords
         $curl_options[CURLOPT_POSTFIELDS]= json_encode($requestBody);
         $headersArray = array();
         
-        $headersArray[] = "Authorization". ":" . "Zoho-oauthtoken " . "1000.f1652e3ed1c5cd5a7742df15128f05fc.aea7704b900df73cda10edfd56db7dac";
+        $headersArray[] = "Authorization". ":" . "Zoho-oauthtoken " . "1000.f1652e3ed1c5cd5a7742df15128f0xxx.aea7704b900df73cda10edfd56db7xxx";
         
         $curl_options[CURLOPT_HTTPHEADER]=$headersArray;
         
